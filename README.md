@@ -4,12 +4,11 @@ This repo was created to show how you can run multiple next.js applications insi
 
 home app starts on localhost:4200 and blog app starts on localhost:5200
 
-All requests to /blog from home is proxied to port http://localhost:5200 ,refer next.confif.js files in both apps for details of url rewrites.
+All requests to /blog from home is proxied to port http://localhost:5200 ,refer next.config.js files in both apps for details of url rewrites.
 
 ## Running apps
 
-nx serve home
-nx serve blog
+nx serve home && nx serve blog
 
 ## Navigating between apps
 
